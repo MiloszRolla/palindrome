@@ -1,3 +1,5 @@
+module.export = Phrase;
+
 // Adds 'reverse();' to the string ocject
 String.prototype.reverse = function reverse() {
   return Array.from(this).reverse().join("");
